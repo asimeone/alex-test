@@ -10,7 +10,7 @@ services:
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
-      - key: DATABASE_URL
+      - key: ALEX_TEST_DATABASE_URL
         fromDatabase:
           name: alex-test
           property: connectionString
