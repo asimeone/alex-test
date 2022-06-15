@@ -1,7 +1,7 @@
 databases:
   - name: alex-test
-    databaseName: alex-test
-    user: alex-test
+    databaseName: alex_test_production
+    user: alex_test
 
 services:
   - type: web
