@@ -7,7 +7,7 @@ services:
   - type: web
     name: alex-test
     env: ruby
-    region: oregon
+    region: ohio
     plan: standard
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
