@@ -1,6 +1,6 @@
 databases:
   - name: alex-test
-    databaseName: alex_test_production
+    databaseName: alex-test
     user: alex_test
 
 services:
